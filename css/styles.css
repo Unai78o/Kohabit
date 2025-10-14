@@ -30,8 +30,7 @@ header {
 .hdrPublishBtn {
     background-color: transparent;
     color: white;
-    border-radius: 5%;
-    border: solid;
-    border-width: 0.25rem;
+    border: 2px solid white;
+    border-radius: 5px;
     border-color: white;
 }
