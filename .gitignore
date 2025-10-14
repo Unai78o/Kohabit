@@ -1,0 +1,63 @@
+# PHP configuration with database credentials
+php/config.php
+
+# Environment files
+.env
+.env.local
+
+# Database dumps
+*.sql.gz
+*.sql.zip
+database/backups/
+
+# Logs
+*.log
+logs/
+php/logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.classpath
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# Cache
+cache/
+*.cache
+
+# Uploaded files (if you have uploads)
+uploads/
+files/
+
+# Node modules (if you add Node.js later)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer dependencies (if you use Composer)
+vendor/
+composer.lock
+
+# Build files
+dist/
+build/
