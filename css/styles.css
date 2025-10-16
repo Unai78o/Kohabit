@@ -14,24 +14,33 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    box-sizing: border-box;
 }
 
 .logo {
     height: 100%;
     width: auto;
-    margin-top: 1rem;
+}
+
+.logo svg {
+    width: 15rem;
+    height: auto;
 }
 
 .rightHdr {
     display: flex;
     gap: 1rem;
     margin-right: 1rem;
-    margin-top: 1rem;
+    margin-top: 1 rem;
+    align-items: center;
 }
 
 .hdrPublishBtn {
     background-color: transparent;
     color: white;
+    padding: 0.5rem;
     border: 1px solid white;
     border-radius: 5px;
     border-color: white;
