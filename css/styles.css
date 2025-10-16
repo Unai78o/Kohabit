@@ -60,3 +60,12 @@ header {
 .profileBtn {
     color: white;
 }
+
+.backgroundSearch{
+    background-image: url('../imagenes/cocina_verde.png');
+    background-size: cover;         
+    background-position: center;    
+    background-repeat: no-repeat; 
+    height: 100vh;
+    width: 100vw;
+}
